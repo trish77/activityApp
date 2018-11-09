@@ -1,0 +1,34 @@
+{
+  "allRideDays": [{
+      "location": "Prairie Life",
+      "date": "10/2/2018",
+      "ride": false,
+      "workout": true
+    },
+    {
+      "location": "Prairie Life",
+      "date": "10/2/2018",
+      "ride": false,
+      "workout": true
+    },
+    {
+      "location": "Sunset Ridge Stables",
+      "date": "10/12/2018",
+      "ride": true,
+      "workout": false
+    },
+    {
+      "location": "Prairie Life",
+      "date": "10/2/2018",
+      "ride": false,
+      "workout": true
+    }
+  ],
+  "goal": 10,
+  "errors": [],
+  "location": {
+    "fetching": false,
+    "suggestions": ["Sunset Ridge Stables", "Ridge Back Pasture", "Percy Warner", "Greenway Trail Head", 
+      "Edwin Warner Park", "Prairie Life"]
+    }
+  }
