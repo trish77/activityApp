@@ -3,10 +3,12 @@
   "version": "1.0.3",
   "description": "A project focusing on React and related tools",
   "main": "index.js",
-  "homepage": "http://www.trishbonnette.com/ActivityApp",
+  "homepage": "https://trish77.github.io/activityApp/",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack -p --progress"
+    "build": "webpack -p --progress",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "author": "Trish Bonnette",
   "license": "MIT",
@@ -18,7 +20,7 @@
     "autoprefixer-loader": "3.2.0",
     "babel": "^6.5.2",
     "babel-cli": "6.16.0",
-    "babel-core": "^7.0.0-bridge.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-latest": "6.16.0",
